@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    display: grid;
+    place-items: center;    /* 수평 및 수직 중앙 정렬 */
+    height: 100vh;          /* 뷰포트 높이 전체를 사용 */
+    margin: 0;              /* 기본 여백 제거 */
 }
 
 form {
